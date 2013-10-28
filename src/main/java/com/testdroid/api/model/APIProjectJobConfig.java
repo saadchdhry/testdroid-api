@@ -13,7 +13,7 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 public class APIProjectJobConfig extends APIEntity {
     @XmlType(name = "jobConfigType")
     public static enum Type { DEFAULT, RESIGNING, INSTATEST, CTS, IOS, UIAUTOMATOR, REMOTECONTROL, 
-        CALABASH, RECORDERONLINE, APPIUM_ANDROID }
+        CALABASH, RECORDERONLINE, APPIUM_ANDROID, APPIUM_IOS }
 
     private Type type;
     private String content;

@@ -32,7 +32,8 @@ public class APITestRunConfig extends APIEntity {
         REMOTECONTROL("Remote control"),
         RECORDERONLINE("Recorder online"),
         CALABASH("Calabash"),
-        APPIUM_ANDROID("Appium Android");
+        APPIUM_ANDROID("Appium Android"),
+        APPIUM_IOS("Appium iOS");
         
         private String friendlyName;
         
